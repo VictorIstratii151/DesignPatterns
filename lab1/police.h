@@ -13,12 +13,12 @@ public:
 	}
 };
 
-class HighWayPatrol : public ForceStructure
+class HighwayPatrol : public ForceStructure
 {
 public:
 	void report()
 	{
-		cout << "Park police with id " << id << " reporting!" << endl;
+		cout << "Highway Patrol with id " << id << " reporting!" << endl;
 	}
 };
 
@@ -27,7 +27,7 @@ class SWAT : public ForceStructure
 public:
 	void report()
 	{
-		cout << "Park police with id " << id << " reporting!" << endl;
+		cout << "SWAT with id " << id << " reporting!" << endl;
 	}
 };
 
@@ -36,6 +36,6 @@ class StateTroopers : public ForceStructure
 public:
 	void report()
 	{
-		cout << "Park police with id " << id << " reporting!" << endl;
+		cout << "State Troopers with id " << id << " reporting!" << endl;
 	}
 };

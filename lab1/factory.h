@@ -1,9 +1,12 @@
+#pragma once
+#include "police.h"
+
 class Factory 
 {
 public:
 	virtual ForceStructure * createMunicipalStructure() = 0;
 	virtual ForceStructure * createRegionalStructure() = 0;
-}
+};
 
 class SimplePoliceFactory : public Factory
 {
@@ -16,7 +19,7 @@ public:
 	{
 		return new HighwayPatrol;
 	}
-}
+};
 
 class SpecialPoliceFactory : public Factory
 {
@@ -29,4 +32,4 @@ public:
 	{
 		return new StateTroopers;
 	}
-}
+};
