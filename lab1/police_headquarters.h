@@ -6,8 +6,7 @@ private:
 	static PoliceHeadquarters * instance;
 	int personnel;
 public:
-	int getPersonnel() const;
 	void setPersonnel(int p);
+	int getPersonnel() const;
 	static PoliceHeadquarters * instance();
-
-}
+};
