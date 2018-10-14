@@ -1,21 +1,21 @@
-#include "police_headquarters"
+#include "police_headquarters.h"
 
 void PoliceHeadquarters::setPersonnel(int p)
 {
-	this->personnel = p;
+	personnel = p;
 }
 
 int PoliceHeadquarters::getPersonnel() const
 {
-	return this->personnel;
+	return personnel;
 }
 
-static PoliceHeadquarters * PoliceHeadquarters::instance()
+PoliceHeadquarters * PoliceHeadquarters::getInstance()
 {
-	if(!this->instance)
+	if(!instance)
 	{
-		this->instance = new PoliceHeadquarters;
+		instance = new PoliceHeadquarters;
 	}
 
-	return this->instance;
+	return instance;
 }

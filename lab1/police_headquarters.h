@@ -8,5 +8,5 @@ private:
 public:
 	void setPersonnel(int p);
 	int getPersonnel() const;
-	static PoliceHeadquarters * instance();
+	static PoliceHeadquarters * getInstance();
 };
