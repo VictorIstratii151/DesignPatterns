@@ -1,4 +1,5 @@
 #pragma once
+#include "factory.h"
 
 class PoliceHeadquarters 
 {
@@ -9,4 +10,6 @@ public:
 	void setPersonnel(int p);
 	int getPersonnel() const;
 	static PoliceHeadquarters * getInstance();
+	Factory * establishRegularDepartments();
+	Factory * establishSpecialDepartments();
 };

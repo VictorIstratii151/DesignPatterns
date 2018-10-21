@@ -19,3 +19,13 @@ PoliceHeadquarters * PoliceHeadquarters::getInstance()
 
 	return instance;
 }
+
+Factory * PoliceHeadquarters::establishRegularDepartments()
+{
+	return new SimplePoliceFactory;
+}
+
+Factory * PoliceHeadquarters::establishSpecialDepartments()
+{
+	return new SpecialPoliceFactory;
+}
