@@ -1,5 +1,6 @@
 #pragma once
 #include "police.h"
+#include <string>
 
 class Factory 
 {
