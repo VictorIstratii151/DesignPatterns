@@ -2,7 +2,7 @@
 
 In order to compile the code write the following in bash:
 ```bash
-g++ police_headquarters.cpp main.cpp -o test
+g++ weapon.cxx weapon_belt.cxx great_hero.cxx main.cxx -o test
 ```
 
 ## About the lab
