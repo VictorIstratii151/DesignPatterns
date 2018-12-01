@@ -1,4 +1,4 @@
-## Lab 1
+## Lab 2
 
 In order to compile the code write the following in bash:
 ```bash
